@@ -2,7 +2,7 @@
 %define plugin	timersync
 %define name	vdr-plugin-%plugin
 %define version	0.1.0
-%define rel	2
+%define rel	3
 
 Summary:	VDR plugin: Synchronize timers with server
 Name:		%name
