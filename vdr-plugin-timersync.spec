@@ -2,7 +2,7 @@
 %define plugin	timersync
 %define name	vdr-plugin-%plugin
 %define version	0.1.0
-%define rel	5
+%define rel	6
 
 Summary:	VDR plugin: Synchronize timers with server
 Name:		%name
@@ -13,7 +13,7 @@ License:	GPL
 URL:		http://phivdr.dyndns.org/vdr/vdr-timersync/
 Source:		http://phivdr.dyndns.org/vdr/vdr-timersync/vdr-%plugin-%version.tar.bz2
 BuildRoot:	%{_tmppath}/%{name}-buildroot
-BuildRequires:	vdr-devel >= 1.4.1-6
+BuildRequires:	vdr-devel >= 1.6.0
 BuildRequires:	svdrpservice-devel
 Requires:	vdr-abi = %vdr_abi
 Requires:	vdr-plugin-svdrpservice
@@ -25,6 +25,7 @@ both VDR instances.
 
 %prep
 %setup -q -n %plugin-%version
+%vdr_plugin_prep
 
 perl -pi -e 's,"../svdrpservice/svdrpservice.h",<vdr/svdrpservice/svdrpservice.h>,' timersync.c
 
