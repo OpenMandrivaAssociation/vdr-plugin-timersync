@@ -55,3 +55,49 @@ rm -rf %{buildroot}
 %files -f %plugin.vdr
 %defattr(-,root,root)
 %doc README HISTORY
+
+
+%changelog
+* Tue Jul 28 2009 Anssi Hannula <anssi@mandriva.org> 0.1.0-9mdv2010.0
++ Revision: 401088
+- rebuild for new VDR
+
+* Fri Mar 20 2009 Anssi Hannula <anssi@mandriva.org> 0.1.0-8mdv2009.1
++ Revision: 359377
+- rebuild for new vdr
+
+* Mon Apr 28 2008 Anssi Hannula <anssi@mandriva.org> 0.1.0-7mdv2009.0
++ Revision: 197989
+- rebuild for new vdr
+
+* Sat Apr 26 2008 Anssi Hannula <anssi@mandriva.org> 0.1.0-6mdv2009.0
++ Revision: 197735
+- add vdr_plugin_prep
+- bump buildrequires on vdr-devel
+
+* Fri Jan 04 2008 Anssi Hannula <anssi@mandriva.org> 0.1.0-5mdv2008.1
++ Revision: 145229
+- rebuild for new vdr
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+
+* Mon Oct 29 2007 Anssi Hannula <anssi@mandriva.org> 0.1.0-4mdv2008.1
++ Revision: 103224
+- rebuild for new vdr
+
+* Sun Jul 08 2007 Anssi Hannula <anssi@mandriva.org> 0.1.0-3mdv2008.0
++ Revision: 50058
+- rebuild for new vdr
+
+* Thu Jun 21 2007 Anssi Hannula <anssi@mandriva.org> 0.1.0-2mdv2008.0
++ Revision: 42141
+- rebuild for new vdr
+
+* Sun Jun 10 2007 Anssi Hannula <anssi@mandriva.org> 0.1.0-1mdv2008.0
++ Revision: 37870
+- initial Mandriva release
+
