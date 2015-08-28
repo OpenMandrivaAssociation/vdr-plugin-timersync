@@ -3,7 +3,7 @@
 Summary:	VDR plugin: Synchronize timers with server
 Name:		vdr-plugin-%plugin
 Version:	0.1.0
-Release:	11
+Release:	12
 Group:		Video
 License:	GPL
 URL:		http://phivdr.dyndns.org/vdr/vdr-timersync/
