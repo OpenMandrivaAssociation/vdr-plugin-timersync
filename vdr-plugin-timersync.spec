@@ -6,7 +6,7 @@ Version:	0.1.0
 Release:	11
 Group:		Video
 License:	GPL
-URL:		http://phivdr.dyndns.org/vdr/vdr-timersync/
+URL:		https://phivdr.dyndns.org/vdr/vdr-timersync/
 Source:		http://phivdr.dyndns.org/vdr/vdr-timersync/vdr-%plugin-%{version}.tgz
 BuildRequires:	vdr-devel >= 1.6.0
 BuildRequires:	svdrpservice-devel
